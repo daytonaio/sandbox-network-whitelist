@@ -92,5 +92,10 @@ other_registries:
   - quay.io
   - quay-registry.s3.amazonaws.com
 
+# Maven Repositories
+maven_repos:
+  - repo1.maven.org
+  - repo.maven.apache.org
+
 daytona:
   - app.daytona.io
