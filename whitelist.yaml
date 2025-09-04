@@ -1,0 +1,96 @@
+# =============================================================================
+# ALLOWED DOMAINS FOR ENVOY PROXY
+# =============================================================================
+# This file contains domains that are whitelisted in the Daytona Envoy proxy
+
+# NPM Registry and Package Managers
+npm_registry:
+  - registry.npmjs.org
+  - registry.npmjs.com
+  - nodejs.org
+  - nodesource.com
+  - npm.pkg.github.com
+
+yarn_packages:
+  - classic.yarnpkg.com
+  - registry.yarnpkg.com
+  - repo.yarnpkg.com
+  - releases.yarnpkg.com
+  - yarn.npmjs.org
+  - yarnpkg.netlify.com
+  - dl.yarnpkg.com
+  - yarnpkg.com
+
+# Git Hosting and Version Control
+github:
+  - github.com
+  - api.github.com
+  - raw.githubusercontent.com
+  - github-releases.githubusercontent.com
+  - codeload.github.com
+  - ghcr.io
+  - packages.github.com
+
+gitlab:
+  - gitlab.com
+  - registry.gitlab.com
+
+bitbucket:
+  - bitbucket.org
+
+# Python Package Managers
+pypi:
+  - pypi.org
+  - pypi.python.org
+  - files.pythonhosted.org
+  - bootstrap.pypa.io
+
+# Ubuntu/Debian Package Repositories
+ubuntu_repos:
+  - archive.ubuntu.com
+  - security.ubuntu.com
+
+debian_repos:
+  - deb.debian.org
+  - security.debian.org
+  - cdn-fastly.deb.debian.org
+  - ftp.debian.org
+
+# CDN and Content Delivery
+cdn_services:
+  - fastly.com
+  - cloudflare.com
+
+js_cdns:
+  - unpkg.com
+  - jsdelivr.net
+
+# AI/ML Services
+ai_services:
+  - api.anthropic.com
+
+# Docker Registries and Container Services
+docker_registries:
+  - download.docker.com
+  - registry-1.docker.io
+  - registry.docker.io
+  - auth.docker.io
+  - index.docker.io
+  - hub.docker.com
+  - docker.io
+
+# Other Container Registries
+other_registries:
+  - mcr.microsoft.com
+  - registry.k8s.io
+  - gcr.io
+  - asia.gcr.io
+  - eu.gcr.io
+  - us.gcr.io
+  - marketplace.gcr.io
+  - registry.cloud.google.com 
+  - quay.io
+  - quay-registry.s3.amazonaws.com
+
+daytona:
+  - app.daytona.io
