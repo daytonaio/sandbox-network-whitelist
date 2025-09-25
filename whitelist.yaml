@@ -97,5 +97,10 @@ maven_repos:
   - repo1.maven.org
   - repo.maven.apache.org
 
+# Google Fonts
+google_fonts:
+  - fonts.googleapis.com
+  - fonts.gstatic.com
+
 daytona:
   - app.daytona.io
