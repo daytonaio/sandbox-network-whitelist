@@ -68,6 +68,10 @@ js_cdns:
 # AI/ML Services
 ai_services:
   - api.anthropic.com
+  - api.openai.com
+  - api.perplexity.ai
+  - api.deepseek.com
+  - api.groq.com
 
 # Docker Registries and Container Services
 docker_registries:
