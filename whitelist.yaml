@@ -68,6 +68,7 @@ js_cdns:
 # AI/ML Services
 ai_services:
   - api.anthropic.com
+  - openrouter.ai
 
 # Docker Registries and Container Services
 docker_registries:
