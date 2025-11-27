@@ -74,6 +74,11 @@ ai_services:
   - api.groq.com
   - api.expo.dev
   - openrouter.ai
+  - chat.qwen.ai
+  - dashscope.aliyuncs.com
+  - dashscope-intl.aliyuncs.com
+  - generativelanguage.googleapis.com
+  - ai.google.dev
 
 # Docker Registries and Container Services
 docker_registries:
