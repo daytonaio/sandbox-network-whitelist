@@ -68,20 +68,16 @@ js_cdns:
 
 # AI/ML Services
 ai_services:
-  # Anthropic (Core API & Console)
   - console.anthropic.com
   - api.anthropic.com
   - claude.ai
-  # OpenAI (Core API, ChatGPT & Codex)
   - api.openai.com
   - platform.openai.com
   - chatgpt.com
   - openai.com
-  # Google Gemini (Core API & Web)
   - generativelanguage.googleapis.com
   - gemini.google.com
   - aistudio.google.com
-  # Other AI/ML providers
   - api.perplexity.ai
   - api.deepseek.com
   - api.groq.com
@@ -112,7 +108,7 @@ other_registries:
   - eu.gcr.io
   - us.gcr.io
   - marketplace.gcr.io
-  - registry.cloud.google.com 
+  - registry.cloud.google.com
   - quay.io
   - quay-registry.s3.amazonaws.com
 
@@ -135,6 +131,6 @@ aws_s3_endpoints:
   - s3.eu-central-1.amazonaws.com
   - s3.eu-west-1.amazonaws.com
   - s3.eu-west-2.amazonaws.com
-  
+
 daytona:
   - app.daytona.io
