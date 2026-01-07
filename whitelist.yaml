@@ -88,6 +88,7 @@ ai_services:
   - dashscope-intl.aliyuncs.com
   - generativelanguage.googleapis.com
   - ai.google.dev
+  - models.dev
 
 # Docker Registries and Container Services
 docker_registries:
