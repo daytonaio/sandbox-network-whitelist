@@ -2,6 +2,10 @@
 # ALLOWED DOMAINS FOR ENVOY PROXY
 # =============================================================================
 # This file contains domains that are whitelisted in the Daytona Envoy proxy
+#
+# IMPORTANT: Wildcards (*.domain.com) only match ONE subdomain level!
+#   *.example.com matches: foo.example.com
+#   *.example.com does NOT match: bar.foo.example.com
 
 # NPM Registry and Package Managers
 npm_registry:
@@ -12,28 +16,21 @@ npm_registry:
   - npm.pkg.github.com
 
 yarn_packages:
-  - classic.yarnpkg.com
-  - registry.yarnpkg.com
-  - repo.yarnpkg.com
-  - releases.yarnpkg.com
+  - yarnpkg.com
+  - "*.yarnpkg.com"
   - yarn.npmjs.org
   - yarnpkg.netlify.com
-  - dl.yarnpkg.com
-  - yarnpkg.com
 
 # Git Hosting and Version Control
 github:
   - github.com
-  - api.github.com
-  - raw.githubusercontent.com
-  - github-releases.githubusercontent.com
-  - codeload.github.com
+  - "*.github.com"
+  - "*.githubusercontent.com"
   - ghcr.io
-  - packages.github.com
 
 gitlab:
   - gitlab.com
-  - registry.gitlab.com
+  - "*.gitlab.com"
 
 bitbucket:
   - bitbucket.org
@@ -48,14 +45,11 @@ pypi:
 
 # Ubuntu/Debian Package Repositories
 ubuntu_repos:
-  - archive.ubuntu.com
-  - security.ubuntu.com
+  - "*.ubuntu.com"
 
 debian_repos:
-  - deb.debian.org
-  - security.debian.org
+  - "*.debian.org"
   - cdn-fastly.deb.debian.org
-  - ftp.debian.org
 
 # CDN and Content Delivery
 cdn_services:
@@ -68,13 +62,11 @@ js_cdns:
 
 # AI/ML Services
 ai_services:
-  - console.anthropic.com
-  - api.anthropic.com
+  - "*.anthropic.com"
   - claude.ai
-  - api.openai.com
-  - platform.openai.com
-  - chatgpt.com
   - openai.com
+  - "*.openai.com"
+  - chatgpt.com
   - generativelanguage.googleapis.com
   - gemini.google.com
   - aistudio.google.com
@@ -86,29 +78,21 @@ ai_services:
   - chat.qwen.ai
   - dashscope.aliyuncs.com
   - dashscope-intl.aliyuncs.com
-  - generativelanguage.googleapis.com
   - ai.google.dev
   - models.dev
 
 # Docker Registries and Container Services
 docker_registries:
-  - download.docker.com
-  - registry-1.docker.io
-  - registry.docker.io
-  - auth.docker.io
-  - index.docker.io
-  - hub.docker.com
   - docker.io
+  - "*.docker.io"
+  - "*.docker.com"
 
 # Other Container Registries
 other_registries:
   - mcr.microsoft.com
   - registry.k8s.io
   - gcr.io
-  - asia.gcr.io
-  - eu.gcr.io
-  - us.gcr.io
-  - marketplace.gcr.io
+  - "*.gcr.io"
   - registry.cloud.google.com
   - quay.io
   - quay-registry.s3.amazonaws.com
@@ -123,7 +107,7 @@ google_fonts:
   - fonts.googleapis.com
   - fonts.gstatic.com
 
-# AWS s3 endpoints
+# AWS S3 endpoints
 aws_s3_endpoints:
   - s3.us-east-1.amazonaws.com
   - s3.us-east-2.amazonaws.com
@@ -133,9 +117,11 @@ aws_s3_endpoints:
   - s3.eu-west-1.amazonaws.com
   - s3.eu-west-2.amazonaws.com
 
+# Tailscale
 tailscale:
   - tailscale.com
-  - pkgs.tailscale.com
+  - "*.tailscale.com"
 
+# Daytona
 daytona:
   - app.daytona.io
