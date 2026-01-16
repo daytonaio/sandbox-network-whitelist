@@ -80,6 +80,7 @@ ai_services:
   - dashscope-intl.aliyuncs.com
   - ai.google.dev
   - models.dev
+  - api.letta.com
 
 # Docker Registries and Container Services
 docker_registries:
