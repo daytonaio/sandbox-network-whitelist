@@ -45,8 +45,7 @@ pypi:
 
 # PHP/Composer Package Manager
 composer_packages:
-  - packagist.org
-  - repo.packagist.org
+  - "*.packagist.org"
   - packagist.com
 
 # Ubuntu/Debian Package Repositories
