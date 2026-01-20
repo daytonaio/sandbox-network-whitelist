@@ -85,6 +85,7 @@ ai_services:
   - dashscope-intl.aliyuncs.com
   - ai.google.dev
   - models.dev
+  - "*.cursor.com"
   - opencode.ai
   - "*.opencode.ai"
   - api.letta.com
