@@ -43,6 +43,11 @@ pypi:
   - bootstrap.pypa.io
   - astral.sh
 
+# PHP/Composer Package Manager
+composer_packages:
+  - "*.packagist.org"
+  - packagist.com
+
 # Ubuntu/Debian Package Repositories
 ubuntu_repos:
   - "*.ubuntu.com"
@@ -81,6 +86,9 @@ ai_services:
   - ai.google.dev
   - models.dev
   - "*.cursor.com"
+  - opencode.ai
+  - "*.opencode.ai"
+  - api.letta.com
 
 # Docker Registries and Container Services
 docker_registries:
