@@ -21,6 +21,10 @@ yarn_packages:
   - yarn.npmjs.org
   - yarnpkg.netlify.com
 
+bun:
+  - bun.sh
+  - "*.bun.sh"
+
 # Git Hosting and Version Control
 github:
   - github.com
