@@ -60,6 +60,8 @@ debian_repos:
 cdn_services:
   - fastly.com
   - cloudflare.com
+  - r2.cloudflarestorage.com
+  - "*.r2.cloudflarestorage.com"
 
 js_cdns:
   - unpkg.com
