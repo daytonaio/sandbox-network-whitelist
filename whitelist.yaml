@@ -137,6 +137,11 @@ tailscale:
   - tailscale.com
   - "*.tailscale.com"
 
+# Netbird
+netbird:
+  - netbird.io
+  - "*.netbird.io"
+
 # Daytona
 daytona:
   - app.daytona.io
