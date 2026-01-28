@@ -96,7 +96,7 @@ ai_services:
   - "*.opencode.ai"
   - api.letta.com
 
-ai_model_registry:
+ai_models_registry:
   - models.dev 
 
 # Docker Registries and Container Services
