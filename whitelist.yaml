@@ -146,3 +146,9 @@ netbird:
 # Daytona
 daytona:
   - app.daytona.io
+
+# Messaging Platforms
+messaging_services:
+  - api.telegram.org
+  - web.whatsapp.com
+  - "*.whatsapp.net"
