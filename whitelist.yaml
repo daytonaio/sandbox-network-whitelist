@@ -39,6 +39,19 @@ gitlab:
 bitbucket:
   - bitbucket.org
 
+azure_devops:
+  # Git HTTPS
+  - dev.azure.com
+  - "*.dev.azure.com"
+  # Auth
+  - login.microsoftonline.com
+  # Legacy
+  - visualstudio.com
+  - "*.visualstudio.com"
+  # SSH
+  - ssh.dev.azure.com
+  - vs-ssh.visualstudio.com
+
 # Python Package Managers
 pypi:
   - pypi.org
