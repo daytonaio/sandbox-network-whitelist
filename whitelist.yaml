@@ -96,6 +96,8 @@ ai_services:
   - opencode.ai
   - "*.opencode.ai"
   - api.letta.com
+  - open.bigmodel.cn
+  - api.z.ai
 
 # Docker Registries and Container Services
 docker_registries:
