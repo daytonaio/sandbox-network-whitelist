@@ -152,3 +152,8 @@ messaging_services:
   - api.telegram.org
   - web.whatsapp.com
   - "*.whatsapp.net"
+
+# LLM observability / tracing
+llm_observability:
+  - "*.langfuse.com"
+  - "*.cloud.langfuse.com"
