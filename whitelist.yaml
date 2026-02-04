@@ -132,6 +132,7 @@ aws_s3_endpoints:
   - s3.eu-central-1.amazonaws.com
   - s3.eu-west-1.amazonaws.com
   - s3.eu-west-2.amazonaws.com
+  - convex.cloud
 
 # Tailscale
 tailscale:
