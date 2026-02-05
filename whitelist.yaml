@@ -105,6 +105,7 @@ ai_services:
   - opencode.ai
   - "*.opencode.ai"
   - api.letta.com
+  - api.fireworks.ai
   - open.bigmodel.cn
   - api.z.ai
 
