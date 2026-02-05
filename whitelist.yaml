@@ -39,6 +39,15 @@ gitlab:
 bitbucket:
   - bitbucket.org
 
+azure_devops:
+  - dev.azure.com
+  - "*.dev.azure.com"
+  - login.microsoftonline.com
+  - visualstudio.com
+  - "*.visualstudio.com"
+  - ssh.dev.azure.com
+  - vs-ssh.visualstudio.com
+
 # Python Package Managers
 pypi:
   - pypi.org
@@ -97,6 +106,8 @@ ai_services:
   - "*.opencode.ai"
   - api.letta.com
   - api.fireworks.ai
+  - open.bigmodel.cn
+  - api.z.ai
 
 # Docker Registries and Container Services
 docker_registries:
