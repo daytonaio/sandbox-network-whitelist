@@ -108,6 +108,7 @@ ai_services:
   - api.fireworks.ai
   - open.bigmodel.cn
   - api.z.ai
+  - ai-gateway.vercel.sh
 
 # Docker Registries and Container Services
 docker_registries:
