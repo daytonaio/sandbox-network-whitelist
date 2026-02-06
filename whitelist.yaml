@@ -149,6 +149,13 @@ aws_s3_endpoints:
 daytona:
   - app.daytona.io
 
+# Convex
+convex:
+  - convex.dev
+  - "*.convex.dev"
+  - "*.convex.cloud"
+  - "*.convex.site"
+
 # Messaging Platforms
 messaging_services:
   - api.telegram.org
