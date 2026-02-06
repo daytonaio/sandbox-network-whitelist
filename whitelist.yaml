@@ -145,16 +145,6 @@ aws_s3_endpoints:
   - s3.eu-west-1.amazonaws.com
   - s3.eu-west-2.amazonaws.com
 
-# Tailscale
-tailscale:
-  - tailscale.com
-  - "*.tailscale.com"
-
-# Netbird
-netbird:
-  - netbird.io
-  - "*.netbird.io"
-
 # Daytona
 daytona:
   - app.daytona.io
