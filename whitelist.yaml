@@ -159,3 +159,10 @@ messaging_services:
 llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
+
+# Sentry (Error Tracking)
+sentry:
+  - sentry.io
+  - "*.sentry.io"
+  - sentry-cdn.com
+  - "*.sentry-cdn.com"
