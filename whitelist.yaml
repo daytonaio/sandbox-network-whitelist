@@ -159,3 +159,8 @@ messaging_services:
 llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
+
+# Linear (API + App)
+linear:
+  - linear.app
+  - "*.linear.app"
