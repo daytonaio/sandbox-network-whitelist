@@ -159,3 +159,8 @@ messaging_services:
 llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
+
+# Playwright Browser Downloads
+playwright:
+  - playwright.dev
+  - cdn.playwright.dev
