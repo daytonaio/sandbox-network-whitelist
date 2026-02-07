@@ -159,3 +159,9 @@ messaging_services:
 llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
+
+# Vercel (deployments, preview URLs, Next.js telemetry)
+vercel:
+  - vercel.com
+  - "*.vercel.com"
+  - "*.vercel.app"
