@@ -209,6 +209,13 @@ figma:
   - "*.figma.com"
   - "*.figmafiles.com"
   
+# WorkOS (Authentication + AuthKit)
+workos:
+  - workos.com
+  - "*.workos.com"
+  - authkit.app
+  - "*.authkit.app"
+
 # Playwright Browser Downloads
 playwright:
   - playwright.dev
