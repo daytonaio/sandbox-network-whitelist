@@ -168,14 +168,19 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
 
+# PostHog (Analytics)
+posthog:
+  - posthog.com
+  - "*.posthog.com"
+  
 # Sentry (Error Tracking)
 sentry:
   - sentry.io
   - "*.sentry.io"
   - sentry-cdn.com
   - "*.sentry-cdn.com"
+  
 # Linear (API + App)
-
 linear:
   - linear.app
   - "*.linear.app"
