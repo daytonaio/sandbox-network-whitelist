@@ -168,6 +168,11 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
 
+# Linear (API + App)
+linear:
+  - linear.app
+  - "*.linear.app"
+  
 # Figma API (for Figma MCP)
 figma:
   - figma.com
