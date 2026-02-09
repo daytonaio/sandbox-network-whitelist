@@ -168,6 +168,13 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
 
+# Clerk (Authentication)
+clerk:
+  - clerk.com
+  - "*.clerk.com"
+  - clerk.dev
+  - "*.clerk.dev"
+  
 # Vercel (deployments, preview URLs, Next.js telemetry)
 vercel:
   - vercel.com
