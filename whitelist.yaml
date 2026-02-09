@@ -108,6 +108,7 @@ ai_services:
   - api.fireworks.ai
   - open.bigmodel.cn
   - api.z.ai
+  - ai-gateway.vercel.sh
 
 # Docker Registries and Container Services
 docker_registries:
@@ -149,6 +150,13 @@ aws_s3_endpoints:
 daytona:
   - app.daytona.io
 
+# Convex
+convex:
+  - convex.dev
+  - "*.convex.dev"
+  - "*.convex.cloud"
+  - "*.convex.site"
+
 # Messaging Platforms
 messaging_services:
   - api.telegram.org
@@ -164,3 +172,14 @@ llm_observability:
 linear:
   - linear.app
   - "*.linear.app"
+  
+# Figma API (for Figma MCP)
+figma:
+  - figma.com
+  - "*.figma.com"
+  - "*.figmafiles.com"
+  
+# Playwright Browser Downloads
+playwright:
+  - playwright.dev
+  - cdn.playwright.dev
