@@ -209,6 +209,11 @@ figma:
   - "*.figma.com"
   - "*.figmafiles.com"
   
+# ClickUp (Project Management API + MCP)
+clickup:
+  - clickup.com
+  - "*.clickup.com"
+
 # Playwright Browser Downloads
 playwright:
   - playwright.dev
