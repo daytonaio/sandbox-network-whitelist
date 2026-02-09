@@ -168,6 +168,12 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
 
+# Figma API (for Figma MCP)
+figma:
+  - figma.com
+  - "*.figma.com"
+  - "*.figmafiles.com"
+  
 # Playwright Browser Downloads
 playwright:
   - playwright.dev
