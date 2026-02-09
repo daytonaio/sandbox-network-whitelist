@@ -209,6 +209,13 @@ figma:
   - "*.figma.com"
   - "*.figmafiles.com"
   
+# Supabase (Database API + MCP)
+supabase:
+  - supabase.com
+  - "*.supabase.com"
+  - supabase.co
+  - "*.supabase.co"
+
 # Playwright Browser Downloads
 playwright:
   - playwright.dev
