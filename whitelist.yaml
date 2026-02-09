@@ -168,6 +168,11 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
 
+# Inngest (Background Jobs)
+inngest:
+  - inngest.com
+  - "*.inngest.com"
+  
 # Clerk (Authentication)
 clerk:
   - clerk.com
