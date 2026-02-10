@@ -109,6 +109,8 @@ ai_services:
   - open.bigmodel.cn
   - api.z.ai
   - ai-gateway.vercel.sh
+  - lmarena.ai
+  - arena.ai
 
 # Docker Registries and Container Services
 docker_registries:
