@@ -179,6 +179,10 @@ clerk:
   - "*.clerk.com"
   - clerk.dev
   - "*.clerk.dev"
+  - accounts.dev
+  - "*.accounts.dev"
+  - clerk.accounts.dev
+  - "*.clerk.accounts.dev"
   
 # Vercel (deployments, preview URLs, Next.js telemetry)
 vercel:
