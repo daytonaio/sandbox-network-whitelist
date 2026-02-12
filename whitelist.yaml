@@ -157,6 +157,11 @@ convex:
   - "*.convex.cloud"
   - "*.convex.site"
 
+# Heroku
+heroku:
+  - "herokuapp.com"
+  - "*.herokuapp.com"
+
 # Messaging Platforms
 messaging_services:
   - api.telegram.org
