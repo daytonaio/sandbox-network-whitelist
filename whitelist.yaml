@@ -107,7 +107,8 @@ ai_services:
   - api.letta.com
   - api.fireworks.ai
   - open.bigmodel.cn
-  - api.z.ai
+  - "*.z.ai"
+  - "*.moonshot.ai"
   - ai-gateway.vercel.sh
 
 # Docker Registries and Container Services
