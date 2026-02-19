@@ -213,6 +213,13 @@ figma:
   - "*.figma.com"
   - "*.figmafiles.com"
   
+# Supabase (Database API + MCP)
+supabase:
+  - supabase.com
+  - "*.supabase.com"
+  - supabase.co
+  - "*.supabase.co"
+  
 # ClickUp (Project Management API + MCP)
 clickup:
   - clickup.com
