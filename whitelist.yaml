@@ -179,6 +179,10 @@ clerk:
   - "*.clerk.com"
   - clerk.dev
   - "*.clerk.dev"
+  - accounts.dev
+  - "*.accounts.dev"
+  - clerk.accounts.dev
+  - "*.clerk.accounts.dev"
   
 # Vercel (deployments, preview URLs, Next.js telemetry)
 vercel:
@@ -215,6 +219,18 @@ workos:
   - "*.workos.com"
   - authkit.app
   - "*.authkit.app"
+  
+# Supabase (Database API + MCP)
+supabase:
+  - supabase.com
+  - "*.supabase.com"
+  - supabase.co
+  - "*.supabase.co"
+  
+# ClickUp (Project Management API + MCP)
+clickup:
+  - clickup.com
+  - "*.clickup.com"
 
 # Playwright Browser Downloads
 playwright:
