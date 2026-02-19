@@ -56,6 +56,24 @@ pypi:
   - bootstrap.pypa.io
   - astral.sh
 
+# Rust Package Manager and Toolchain
+rust:
+  - crates.io
+  - static.crates.io
+  - index.crates.io
+  - static.rust-lang.org
+  - rustup.rs
+  - doc.rust-lang.org
+
+# Go Module Proxy and Toolchain
+golang:
+  - proxy.golang.org
+  - sum.golang.org
+  - index.golang.org
+  - go.dev
+  - "*.golang.org"
+  - storage.googleapis.com
+
 # PHP/Composer Package Manager
 composer_packages:
   - "*.packagist.org"
