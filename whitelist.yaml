@@ -110,6 +110,7 @@ ai_services:
   - "*.z.ai"
   - "*.moonshot.ai"
   - ai-gateway.vercel.sh
+  - api.elevenlabs.io
 
 # Docker Registries and Container Services
 docker_registries:
@@ -237,6 +238,10 @@ supabase:
 clickup:
   - clickup.com
   - "*.clickup.com"
+
+# Autumn (Billing API)
+autumn:
+  - api.useautumn.com
 
 # Playwright Browser Downloads
 playwright:
