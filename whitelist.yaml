@@ -58,6 +58,7 @@ pypi:
 
 # PHP/Composer Package Manager
 composer_packages:
+  - packagist.org
   - "*.packagist.org"
   - packagist.com
 
