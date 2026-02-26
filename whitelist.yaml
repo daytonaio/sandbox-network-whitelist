@@ -126,6 +126,8 @@ other_registries:
   - registry.cloud.google.com
   - quay.io
   - quay-registry.s3.amazonaws.com
+  - public.ecr.aws
+  - "*.ecr.aws"
 
 # Maven Repositories
 maven_repos:
