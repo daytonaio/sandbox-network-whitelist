@@ -110,6 +110,8 @@ ai_services:
   - "*.z.ai"
   - "*.moonshot.ai"
   - ai-gateway.vercel.sh
+  - lmarena.ai
+  - arena.ai
 
 # Docker Registries and Container Services
 docker_registries:
