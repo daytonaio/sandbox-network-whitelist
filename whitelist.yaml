@@ -73,6 +73,8 @@ debian_repos:
 cdn_services:
   - fastly.com
   - cloudflare.com
+  - gateway.ai.cloudflare.com
+  - "*.workers.dev"
   - r2.cloudflarestorage.com
   - "*.r2.cloudflarestorage.com"
 
