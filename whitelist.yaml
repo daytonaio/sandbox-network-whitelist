@@ -109,7 +109,7 @@ ai_services:
   - open.bigmodel.cn
   - "*.z.ai"
   - "*.moonshot.ai"
-  - ai-gateway.vercel.
+  - ai-gateway.vercel.sh
   - api.featherless.ai
 
 # Docker Registries and Container Services
