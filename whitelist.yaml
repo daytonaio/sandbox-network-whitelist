@@ -110,6 +110,7 @@ ai_services:
   - "*.z.ai"
   - "*.moonshot.ai"
   - ai-gateway.vercel.sh
+  - api.featherless.ai
 
 # Docker Registries and Container Services
 docker_registries:
