@@ -247,6 +247,8 @@ clickup:
 railway:
   - railway.app
   - "*.railway.app"
+  - railway.com
+  - "*.railway.com"
 
 # Playwright Browser Downloads
 playwright:
