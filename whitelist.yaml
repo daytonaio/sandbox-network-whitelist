@@ -243,6 +243,11 @@ clickup:
   - clickup.com
   - "*.clickup.com"
 
+# Railway (Deployments)
+railway:
+  - railway.app
+  - "*.railway.app"
+
 # Playwright Browser Downloads
 playwright:
   - playwright.dev
