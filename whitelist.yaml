@@ -178,6 +178,7 @@ messaging_services:
 llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
+  - api.smith.langchain.com
 
 # Inngest (Background Jobs)
 inngest:
