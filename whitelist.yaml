@@ -247,3 +247,8 @@ clickup:
 playwright:
   - playwright.dev
   - cdn.playwright.dev
+
+# Doppler (Secrets Management)
+doppler:
+  - doppler.com
+  - "*.doppler.com"
