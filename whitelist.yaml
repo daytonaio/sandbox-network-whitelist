@@ -111,6 +111,8 @@ ai_services:
   - "*.moonshot.ai"
   - ai-gateway.vercel.sh
   - api.featherless.ai
+  - ampcode.com
+  - "*.ampcode.com"
 
 # Docker Registries and Container Services
 docker_registries:
