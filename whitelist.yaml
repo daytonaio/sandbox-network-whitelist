@@ -113,6 +113,8 @@ ai_services:
   - api.featherless.ai
   - ampcode.com
   - "*.ampcode.com"
+  - "*.openai.azure.com"
+  - "*.services.ai.azure.com"
 
 # Docker Registries and Container Services
 docker_registries:
