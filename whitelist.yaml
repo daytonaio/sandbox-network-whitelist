@@ -129,6 +129,7 @@ ai_services:
   - "*.z.ai"
   - "*.moonshot.ai"
   - ai-gateway.vercel.sh
+  - api.elevenlabs.io
   - api.featherless.ai
   - ampcode.com
   - "*.ampcode.com"
@@ -263,6 +264,10 @@ supabase:
 clickup:
   - clickup.com
   - "*.clickup.com"
+
+# Autumn (Billing API)
+autumn:
+  - api.useautumn.com
 
 # Playwright Browser Downloads
 playwright:
