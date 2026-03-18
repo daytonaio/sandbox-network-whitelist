@@ -56,8 +56,27 @@ pypi:
   - bootstrap.pypa.io
   - astral.sh
 
+# Rust Package Manager and Toolchain
+rust:
+  - crates.io
+  - static.crates.io
+  - index.crates.io
+  - static.rust-lang.org
+  - rustup.rs
+  - doc.rust-lang.org
+
+# Go Module Proxy and Toolchain
+golang:
+  - proxy.golang.org
+  - sum.golang.org
+  - index.golang.org
+  - go.dev
+  - "*.golang.org"
+  - storage.googleapis.com
+
 # PHP/Composer Package Manager
 composer_packages:
+  - packagist.org
   - "*.packagist.org"
   - packagist.com
 
@@ -73,6 +92,8 @@ debian_repos:
 cdn_services:
   - fastly.com
   - cloudflare.com
+  - gateway.ai.cloudflare.com
+  - "*.workers.dev"
   - r2.cloudflarestorage.com
   - "*.r2.cloudflarestorage.com"
 
@@ -110,7 +131,10 @@ ai_services:
   - "*.z.ai"
   - "*.moonshot.ai"
   - ai-gateway.vercel.sh
+  - api.elevenlabs.io
   - api.featherless.ai
+  - ampcode.com
+  - "*.ampcode.com"
 
 # Docker Registries and Container Services
 docker_registries:
@@ -127,6 +151,8 @@ other_registries:
   - registry.cloud.google.com
   - quay.io
   - quay-registry.s3.amazonaws.com
+  - public.ecr.aws
+  - "*.ecr.aws"
 
 # Maven Repositories
 maven_repos:
@@ -249,6 +275,10 @@ railway:
   - "*.railway.app"
   - railway.com
   - "*.railway.com"
+  
+# Autumn (Billing API)
+autumn:
+  - api.useautumn.com
 
 # Playwright Browser Downloads
 playwright:
