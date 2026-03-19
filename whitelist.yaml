@@ -180,6 +180,10 @@ aws_s3_endpoints:
 gcs:
   - storage.googleapis.com
 
+# Azure Blob Storage
+azure_blob_storage:
+  - "*.blob.core.windows.net"
+
 # Daytona
 daytona:
   - app.daytona.io
