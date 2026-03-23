@@ -150,6 +150,7 @@ other_registries:
   - registry.k8s.io
   - gcr.io
   - "*.gcr.io"
+  - "*.pkg.dev"
   - registry.cloud.google.com
   - quay.io
   - quay-registry.s3.amazonaws.com
