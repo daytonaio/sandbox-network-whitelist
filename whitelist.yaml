@@ -138,6 +138,11 @@ ai_services:
   - "*.openai.azure.com"
   - "*.services.ai.azure.com"
 
+# Hugging Face (Model Hub + Datasets + Inference API)
+huggingface:
+  - huggingface.co
+  - "*.huggingface.co"
+
 # Docker Registries and Container Services
 docker_registries:
   - docker.io
