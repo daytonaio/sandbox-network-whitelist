@@ -186,6 +186,10 @@ aws_s3_endpoints:
 gcs:
   - storage.googleapis.com
 
+# Google Cloud apt package registry (gcsfuse, google-cloud-sdk, kubectl, etc.)
+google_package_registry:
+  - packages.cloud.google.com
+
 # Azure Blob Storage
 azure_blob_storage:
   - "*.blob.core.windows.net"
