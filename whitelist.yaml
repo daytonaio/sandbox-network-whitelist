@@ -306,3 +306,10 @@ playwright:
 doppler:
   - doppler.com
   - "*.doppler.com"
+
+# Sanity (CMS API)
+sanity:
+  - "*.sanity.io"
+  - "*.sanity.work"
+  - sanity.io
+  - sanity.work
