@@ -123,6 +123,7 @@ ai_services:
   - ai.google.dev
   - models.dev
   - "*.cursor.com"
+  - "*.cursor.sh"
   - opencode.ai
   - "*.opencode.ai"
   - api.letta.com
