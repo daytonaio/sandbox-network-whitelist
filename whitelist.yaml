@@ -314,3 +314,6 @@ sanity:
   - "*.sanity.work"
   - sanity.io
   - sanity.work
+
+mesa:
+  - "*.mesa.dev"
