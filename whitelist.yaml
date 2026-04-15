@@ -324,3 +324,6 @@ shopify:
   - "*.shopifycdn.com"
   - "*.trycloudflare.com"
   - "*.cfargotunnel.com"
+
+mesa:
+  - "*.mesa.dev"
