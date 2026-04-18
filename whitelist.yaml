@@ -327,3 +327,8 @@ shopify:
 
 mesa:
   - "*.mesa.dev"
+
+# RubyGems (Ruby gem metadata + gem tarball CDN)
+rubygems:
+  - rubygems.org
+  - index.rubygems.org
