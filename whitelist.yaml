@@ -327,3 +327,8 @@ shopify:
 
 mesa:
   - "*.mesa.dev"
+
+# Hex.pm (Elixir/Erlang package registry)
+elixir:
+  - repo.hex.pm
+  - builds.hex.pm
