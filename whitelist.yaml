@@ -327,3 +327,8 @@ shopify:
 
 mesa:
   - "*.mesa.dev"
+
+# Shortcut (Ticket system API + MCP)
+shortcut:
+  - api.app.shortcut.com
+  - app.shortcut.com
