@@ -195,6 +195,16 @@ google_package_registry:
 azure_blob_storage:
   - "*.blob.core.windows.net"
 
+# Box (Cloud Storage API + rclone)
+box:
+  - api.box.com
+  - app.box.com
+  - "*.app.box.com"
+  - upload.box.com
+  - account.box.com
+  - "*.ent.box.com"
+  - "*.boxcloud.com"
+
 # Daytona
 daytona:
   - app.daytona.io
