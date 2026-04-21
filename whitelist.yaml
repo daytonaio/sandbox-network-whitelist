@@ -138,6 +138,8 @@ ai_services:
   - "*.ampcode.com"
   - "*.openai.azure.com"
   - "*.services.ai.azure.com"
+  - trynia.ai
+  - "*.trynia.ai"
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
