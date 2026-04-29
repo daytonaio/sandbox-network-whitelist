@@ -105,6 +105,7 @@ js_cdns:
 ai_services:
   - "*.anthropic.com"
   - claude.ai
+  - "*.claude.ai"
   - platform.claude.com
   - openai.com
   - "*.openai.com"
