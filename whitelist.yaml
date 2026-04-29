@@ -55,6 +55,7 @@ pypi:
   - files.pythonhosted.org
   - bootstrap.pypa.io
   - astral.sh
+  - "*.astral.sh"
 
 # Rust Package Manager and Toolchain
 rust:
@@ -105,6 +106,7 @@ js_cdns:
 ai_services:
   - "*.anthropic.com"
   - claude.ai
+  - "*.claude.ai"
   - platform.claude.com
   - openai.com
   - "*.openai.com"
@@ -138,6 +140,8 @@ ai_services:
   - "*.ampcode.com"
   - "*.openai.azure.com"
   - "*.services.ai.azure.com"
+  - trynia.ai
+  - "*.trynia.ai"
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
@@ -182,6 +186,7 @@ aws:
   - "*.eu-central-1.amazonaws.com"
   - "*.eu-west-1.amazonaws.com"
   - "*.eu-west-2.amazonaws.com"
+  - "*.ap-south-1.amazonaws.com"
 
 # Google Cloud Storage endpoints
 gcs:
@@ -332,3 +337,13 @@ mesa:
 rubygems:
   - rubygems.org
   - index.rubygems.org
+  
+# Shortcut (Ticket system API + MCP)
+shortcut:
+  - api.app.shortcut.com
+  - app.shortcut.com
+  
+# USAspending.gov (federal spending data API + bulk downloads)
+usaspending:
+  - api.usaspending.gov
+  - files.usaspending.gov
