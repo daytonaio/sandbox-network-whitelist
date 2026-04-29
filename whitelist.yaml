@@ -333,6 +333,11 @@ shopify:
 mesa:
   - "*.mesa.dev"
 
+# Hex.pm (Elixir/Erlang package registry)
+elixir:
+  - repo.hex.pm
+  - builds.hex.pm
+  
 # RubyGems (Ruby gem metadata + gem tarball CDN)
 rubygems:
   - rubygems.org
