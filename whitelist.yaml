@@ -333,6 +333,11 @@ shopify:
 mesa:
   - "*.mesa.dev"
 
+# RubyGems (Ruby gem metadata + gem tarball CDN)
+rubygems:
+  - rubygems.org
+  - index.rubygems.org
+  
 # Shortcut (Ticket system API + MCP)
 shortcut:
   - api.app.shortcut.com
