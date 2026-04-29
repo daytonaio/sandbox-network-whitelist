@@ -333,6 +333,11 @@ shopify:
 mesa:
   - "*.mesa.dev"
 
+# Shortcut (Ticket system API + MCP)
+shortcut:
+  - api.app.shortcut.com
+  - app.shortcut.com
+  
 # USAspending.gov (federal spending data API + bulk downloads)
 usaspending:
   - api.usaspending.gov
