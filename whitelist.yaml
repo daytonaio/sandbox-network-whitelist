@@ -55,6 +55,7 @@ pypi:
   - files.pythonhosted.org
   - bootstrap.pypa.io
   - astral.sh
+  - "*.astral.sh"
 
 # Rust Package Manager and Toolchain
 rust:
