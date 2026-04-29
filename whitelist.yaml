@@ -184,6 +184,7 @@ aws:
   - "*.eu-central-1.amazonaws.com"
   - "*.eu-west-1.amazonaws.com"
   - "*.eu-west-2.amazonaws.com"
+  - "*.ap-south-1.amazonaws.com"
 
 # Google Cloud Storage endpoints
 gcs:
