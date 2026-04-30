@@ -206,6 +206,12 @@ aws:
 gcs:
   - storage.googleapis.com
 
+# Google Cloud Platform (OAuth + APIs + static assets)
+gcp:
+  - accounts.google.com
+  - "*.googleapis.com"
+  - "*.gstatic.com"
+
 # Google general downloads (Chrome, gcloud SDK, Android tools, Go binaries via golang.org redirect, etc.)
 google_downloads:
   - dl.google.com
