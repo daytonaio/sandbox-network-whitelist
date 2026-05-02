@@ -205,6 +205,7 @@ aws:
 gcp:
   - accounts.google.com
   - "*.googleapis.com"
+  - "*.storage.googleapis.com"
   - "*.gstatic.com"
 
 # Google general downloads (Chrome, gcloud SDK, Android tools, Go binaries via golang.org redirect, etc.)
