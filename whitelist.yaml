@@ -345,6 +345,11 @@ doppler:
   - doppler.com
   - "*.doppler.com"
 
+# Auth0 (Authentication)
+auth0:
+  - auth0.com
+  - "*.auth0.com"
+
 # Sanity (CMS API)
 sanity:
   - "*.sanity.io"
