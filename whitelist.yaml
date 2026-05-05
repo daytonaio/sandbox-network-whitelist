@@ -331,6 +331,12 @@ railway:
   - railway.com
   - "*.railway.com"
   
+# Fly.io (Deployments + GA Anycast endpoints)
+fly:
+  - fly.io
+  - "*.fly.dev"
+  - api.fly.io
+
 # Autumn (Billing API)
 autumn:
   - api.useautumn.com
