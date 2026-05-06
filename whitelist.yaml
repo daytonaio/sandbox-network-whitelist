@@ -166,6 +166,8 @@ ai_services:
   - trynia.ai
   - "*.trynia.ai"
   - api.x.ai
+  - copass.id
+  - "*.copass.id"
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
