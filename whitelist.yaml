@@ -41,6 +41,10 @@ gitlab:
 bitbucket:
   - bitbucket.org
 
+code_storage:
+  - code.storage
+  - "*.code.storage"
+
 azure_devops:
   - dev.azure.com
   - "*.dev.azure.com"
