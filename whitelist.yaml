@@ -156,6 +156,7 @@ ai_services:
   - "*.services.ai.azure.com"
   - trynia.ai
   - "*.trynia.ai"
+  - api.x.ai
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
