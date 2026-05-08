@@ -147,6 +147,7 @@ ai_services:
   - open.bigmodel.cn
   - "*.z.ai"
   - "*.moonshot.ai"
+  - "*.kimi.com"
   - ai-gateway.vercel.sh
   - api.elevenlabs.io
   - api.featherless.ai
