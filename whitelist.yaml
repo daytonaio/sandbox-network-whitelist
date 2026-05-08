@@ -113,6 +113,10 @@ js_cdns:
   - unpkg.com
   - jsdelivr.net
 
+cloudflare_tunnel:
+  - "*.argotunnel.com"
+  - "*.v2.argotunnel.com"
+
 # AI/ML Services
 ai_services:
   - "*.anthropic.com"
