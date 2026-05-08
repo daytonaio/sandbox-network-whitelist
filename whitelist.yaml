@@ -81,7 +81,6 @@ golang:
   - go.dev
   - golang.org
   - "*.golang.org"
-  - storage.googleapis.com
 
 # C/C++ Build Tools
 build_tools:
@@ -203,9 +202,12 @@ aws:
   - "*.eu-west-2.amazonaws.com"
   - "*.ap-south-1.amazonaws.com"
 
-# Google Cloud Storage endpoints
-gcs:
-  - storage.googleapis.com
+# Google Cloud Platform (OAuth + APIs + static assets)
+gcp:
+  - accounts.google.com
+  - "*.googleapis.com"
+  - "*.storage.googleapis.com"
+  - "*.gstatic.com"
 
 # Google general downloads (Chrome, gcloud SDK, Android tools, Go binaries via golang.org redirect, etc.)
 google_downloads:
