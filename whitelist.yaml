@@ -402,3 +402,16 @@ shortcut:
 usaspending:
   - api.usaspending.gov
   - files.usaspending.gov
+
+# Axiom (Observability — logs, traces, APL queries)
+axiom:
+  - api.axiom.co
+  - api.eu.axiom.co
+  - cdn.axiom.co
+  - "*.axiom.co"
+
+# Grafana Cloud (Observability — metrics, logs, traces dashboards)
+grafana:
+  - grafana.com
+  - "*.grafana.com"
+  - "*.grafana.net"
