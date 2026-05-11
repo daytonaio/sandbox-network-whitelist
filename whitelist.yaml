@@ -402,3 +402,6 @@ shortcut:
 usaspending:
   - api.usaspending.gov
   - files.usaspending.gov
+
+nuget:
+  - api.nuget.org
