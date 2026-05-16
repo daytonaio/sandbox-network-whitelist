@@ -402,3 +402,12 @@ shortcut:
 usaspending:
   - api.usaspending.gov
   - files.usaspending.gov
+
+# NuGet (.NET package registry — required for `dotnet add package`,
+# `dotnet restore`, and `nuget.exe`). The v3 service index lives at
+# api.nuget.org but lists search endpoints under
+# azuresearch-{usnc,ussc}.nuget.org and the gallery web UI under
+# www.nuget.org, so the *.nuget.org wildcard is needed to cover them all.
+nuget:
+  - api.nuget.org
+  - "*.nuget.org"
