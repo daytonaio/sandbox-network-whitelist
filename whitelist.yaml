@@ -391,7 +391,12 @@ rubygems:
 shortcut:
   - api.app.shortcut.com
   - app.shortcut.com
-  
+
+# Composio (agentic tool integration platform + MCP)
+composio:
+  - "*.composio.dev"
+  - composio.dev
+
 # USAspending.gov (federal spending data API + bulk downloads)
 usaspending:
   - api.usaspending.gov
