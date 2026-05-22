@@ -396,3 +396,8 @@ shortcut:
 usaspending:
   - api.usaspending.gov
   - files.usaspending.gov
+
+# Logo Dev (API for Company Logos)
+logodev:
+  - img.logo.dev
+  - logo.dev
