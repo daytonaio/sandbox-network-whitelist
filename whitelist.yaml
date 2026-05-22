@@ -383,15 +383,20 @@ shopify:
 mesa:
   - "*.mesa.dev"
 
+# NuGet (.NET Package Manager)
+nuget:
+  - nuget.org
+  - "*.nuget.org"
+
 # Hex.pm (Elixir/Erlang package registry)
 elixir:
-  - repo.hex.pm
-  - builds.hex.pm
-  
+  - hex.pm
+  - "*.hex.pm"
+
 # RubyGems (Ruby gem metadata + gem tarball CDN)
 rubygems:
   - rubygems.org
-  - index.rubygems.org
+  - "*.rubygems.org"
   
 # Shortcut (Ticket system API + MCP)
 shortcut:
