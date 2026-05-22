@@ -393,7 +393,6 @@ elixir:
 rubygems:
   - rubygems.org
   - "*.rubygems.org"
-  - index.rubygems.org
   
 # Shortcut (Ticket system API + MCP)
 shortcut:
