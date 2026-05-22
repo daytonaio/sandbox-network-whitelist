@@ -204,8 +204,13 @@ aws:
   - "*.us-west-1.amazonaws.com"
   - "*.us-west-2.amazonaws.com"
   - "*.eu-central-1.amazonaws.com"
+  - "*.eu-central-2.amazonaws.com"
+  - "*.eu-north-1.amazonaws.com"
+  - "*.eu-south-1.amazonaws.com"
+  - "*.eu-south-2.amazonaws.com"
   - "*.eu-west-1.amazonaws.com"
   - "*.eu-west-2.amazonaws.com"
+  - "*.eu-west-3.amazonaws.com"
   - "*.ap-south-1.amazonaws.com"
 
 # Google Cloud Platform (OAuth + APIs + static assets)
