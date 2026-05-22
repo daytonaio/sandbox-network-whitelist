@@ -386,8 +386,6 @@ nuget:
 elixir:
   - hex.pm
   - "*.hex.pm"
-  - repo.hex.pm
-  - builds.hex.pm
 
 # RubyGems (Ruby gem metadata + gem tarball CDN)
 rubygems:
