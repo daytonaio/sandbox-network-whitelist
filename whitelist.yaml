@@ -164,6 +164,11 @@ ai_services:
   - api.x.ai
   - zenmux.ai
 
+# CommandCode (AI-powered CLI platform)
+commandcode:
+  - commandcode.ai
+  - "*.commandcode.ai"
+
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
   - huggingface.co
