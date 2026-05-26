@@ -392,6 +392,7 @@ nuget:
 elixir:
   - hex.pm
   - "*.hex.pm"
+  - repo.oban.pro
 
 # RubyGems (Ruby gem metadata + gem tarball CDN)
 rubygems:
