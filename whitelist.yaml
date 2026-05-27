@@ -26,6 +26,12 @@ bun:
   - bun.sh
   - "*.bun.sh"
 
+# Nix Package Manager and Binary Cache
+nix:
+  - cache.nixos.org
+  - channels.nixos.org
+  - releases.nixos.org
+
 # Git Hosting and Version Control
 github:
   - github.com
