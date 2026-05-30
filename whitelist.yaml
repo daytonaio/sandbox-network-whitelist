@@ -117,10 +117,6 @@ js_cdns:
   - unpkg.com
   - jsdelivr.net
 
-cloudflare_tunnel:
-  - "*.argotunnel.com"
-  - "*.v2.argotunnel.com"
-
 # AI/ML Services
 ai_services:
   - "*.anthropic.com"
@@ -168,6 +164,7 @@ ai_services:
   - api.x.ai
   - copass.id
   - "*.copass.id"
+  - zenmux.ai
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
@@ -210,8 +207,13 @@ aws:
   - "*.us-west-1.amazonaws.com"
   - "*.us-west-2.amazonaws.com"
   - "*.eu-central-1.amazonaws.com"
+  - "*.eu-central-2.amazonaws.com"
+  - "*.eu-north-1.amazonaws.com"
+  - "*.eu-south-1.amazonaws.com"
+  - "*.eu-south-2.amazonaws.com"
   - "*.eu-west-1.amazonaws.com"
   - "*.eu-west-2.amazonaws.com"
+  - "*.eu-west-3.amazonaws.com"
   - "*.ap-south-1.amazonaws.com"
 
 # Google Cloud Platform (OAuth + APIs + static assets)
@@ -379,21 +381,24 @@ shopify:
   - "*.myshopify.com"
   - "*.shopify.dev"
   - "*.shopifycdn.com"
-  - "*.trycloudflare.com"
-  - "*.cfargotunnel.com"
 
 mesa:
   - "*.mesa.dev"
 
+# NuGet (.NET Package Manager)
+nuget:
+  - nuget.org
+  - "*.nuget.org"
+
 # Hex.pm (Elixir/Erlang package registry)
 elixir:
-  - repo.hex.pm
-  - builds.hex.pm
-  
+  - hex.pm
+  - "*.hex.pm"
+
 # RubyGems (Ruby gem metadata + gem tarball CDN)
 rubygems:
   - rubygems.org
-  - index.rubygems.org
+  - "*.rubygems.org"
   
 # Shortcut (Ticket system API + MCP)
 shortcut:
@@ -404,3 +409,8 @@ shortcut:
 usaspending:
   - api.usaspending.gov
   - files.usaspending.gov
+
+# Logo Dev (API for Company Logos)
+logodev:
+  - img.logo.dev
+  - logo.dev
