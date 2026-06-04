@@ -169,6 +169,12 @@ ai_services:
 huggingface:
   - huggingface.co
   - "*.huggingface.co"
+  - hf.co
+  - "*.hf.co"
+  - "*.xethub.hf.co"
+  - "*.cdn.hf.co"
+  - "*.aws.cdn.hf.co"
+  - "*.gcp.cdn.hf.co"
 
 # Docker Registries and Container Services
 docker_registries:
