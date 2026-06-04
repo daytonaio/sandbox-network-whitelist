@@ -380,8 +380,15 @@ shopify:
   - "*.shopify.dev"
   - "*.shopifycdn.com"
 
+# Mesa (Versioned Virtual Filesystem)
 mesa:
+  - mesa.dev
   - "*.mesa.dev"
+
+# Buildkite (CI/CD)
+buildkite:
+  - buildkite.com
+  - "*.buildkite.com"
 
 # NuGet (.NET Package Manager)
 nuget:
