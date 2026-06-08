@@ -262,6 +262,8 @@ heroku:
 # Messaging Platforms
 messaging_services:
   - api.telegram.org
+  - slack.com
+  - "*.slack.com"
   - web.whatsapp.com
   - "*.whatsapp.net"
 
