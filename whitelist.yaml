@@ -438,3 +438,12 @@ kiro:
   - "*.kiro.dev"                  # cli.kiro.dev (install script)
   - "*.us-east-1.kiro.dev"        # runtime + management (chat)
   - prod.download.cli.kiro.dev    # install binary (3 labels - explicit)
+
+# Browserbase (cloud browser infrastructure for AI agents — Verified browsers, CDP connect)
+browserbase:
+  - browserbase.com
+  - "*.browserbase.com"
+  - connect.usw2.browserbase.com
+  - connect.use1.browserbase.com
+  - connect.euc1.browserbase.com
+  - connect.apse1.browserbase.com
