@@ -412,3 +412,9 @@ usaspending:
 logodev:
   - img.logo.dev
   - logo.dev
+
+# Kiro CLI (AWS AI coding agent)
+kiro:
+  - "*.kiro.dev"                  # cli.kiro.dev (install script)
+  - "*.us-east-1.kiro.dev"        # runtime + management (chat)
+  - prod.download.cli.kiro.dev    # install binary (3 labels - explicit)
