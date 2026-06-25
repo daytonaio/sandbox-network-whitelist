@@ -26,6 +26,12 @@ bun:
   - bun.sh
   - "*.bun.sh"
 
+# Nix Package Manager and Binary Cache
+nix:
+  - cache.nixos.org
+  - channels.nixos.org
+  - releases.nixos.org
+
 # Git Hosting and Version Control
 github:
   - github.com
@@ -163,13 +169,23 @@ ai_services:
   - "*.trynia.ai"
   - api.x.ai
   - zenmux.ai
+
   - aihubmix.com
   - api.aihubmix.com
+
+  - "*.devin.ai"
+
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
   - huggingface.co
   - "*.huggingface.co"
+  - hf.co
+  - "*.hf.co"
+  - "*.xethub.hf.co"
+  - "*.cdn.hf.co"
+  - "*.aws.cdn.hf.co"
+  - "*.gcp.cdn.hf.co"
 
 # Docker Registries and Container Services
 docker_registries:
@@ -382,8 +398,15 @@ shopify:
   - "*.shopify.dev"
   - "*.shopifycdn.com"
 
+# Mesa (Versioned Virtual Filesystem)
 mesa:
+  - mesa.dev
   - "*.mesa.dev"
+
+# Buildkite (CI/CD)
+buildkite:
+  - buildkite.com
+  - "*.buildkite.com"
 
 # NuGet (.NET Package Manager)
 nuget:
@@ -414,3 +437,9 @@ usaspending:
 logodev:
   - img.logo.dev
   - logo.dev
+
+# Kiro CLI (AWS AI coding agent)
+kiro:
+  - "*.kiro.dev"                  # cli.kiro.dev (install script)
+  - "*.us-east-1.kiro.dev"        # runtime + management (chat)
+  - prod.download.cli.kiro.dev    # install binary (3 labels - explicit)
