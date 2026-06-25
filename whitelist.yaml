@@ -428,6 +428,11 @@ usaspending:
   - api.usaspending.gov
   - files.usaspending.gov
 
+# drive9 (Persistent filesystem for sandboxes — mount, fork, share data across sandboxes)
+drive9:
+  - drive9.ai
+  - "*.drive9.ai"
+
 # Logo Dev (API for Company Logos)
 logodev:
   - img.logo.dev
