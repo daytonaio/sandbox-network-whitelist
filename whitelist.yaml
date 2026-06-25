@@ -169,7 +169,12 @@ ai_services:
   - "*.trynia.ai"
   - api.x.ai
   - zenmux.ai
+
+  - aihubmix.com
+  - api.aihubmix.com
+
   - "*.devin.ai"
+
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
