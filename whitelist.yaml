@@ -168,6 +168,8 @@ ai_services:
   - trynia.ai
   - "*.trynia.ai"
   - api.x.ai
+  - copass.id
+  - "*.copass.id"
   - zenmux.ai
   - "*.devin.ai"
 
