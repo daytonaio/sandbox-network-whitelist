@@ -153,6 +153,7 @@ ai_services:
   - aider.chat
   - api.letta.com
   - api.fireworks.ai
+  - api.tensorx.ai
   - open.bigmodel.cn
   - "*.z.ai"
   - "*.moonshot.ai"
