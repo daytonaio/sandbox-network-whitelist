@@ -172,6 +172,17 @@ ai_services:
   - "*.copass.id"
   - zenmux.ai
   - "*.devin.ai"
+  - "*.nvidia.com"
+  - "*.api.nvidia.com"
+  - "*.nvcf.nvidia.com"
+  - "*.ngc.nvidia.com"
+  - integrate.api.nvidia.com
+  - api.nvcf.nvidia.com
+  - assets.nvcf.nvidia.com
+  - registry.ngc.nvidia.com
+
+
+
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
