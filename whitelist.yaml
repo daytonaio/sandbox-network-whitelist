@@ -450,3 +450,27 @@ browserbase:
   - connect.use1.browserbase.com
   - connect.euc1.browserbase.com
   - connect.apse1.browserbase.com
+
+# Terminal-Bench 2.1 (scientific / ML downloads + bioinformatics APIs)
+# Needed by harbor terminal-bench/terminal-bench-2-1 tasks:
+#   pytorch-model-cli / pytorch-model-recovery → download.pytorch.org
+#   build-pov-ray → www.povray.org
+#   protein-assembly → data/search.rcsb.org, pubchem, fpbase
+pytorch:
+  - pytorch.org
+  - "*.pytorch.org"
+
+povray:
+  - povray.org
+  - "*.povray.org"
+
+rcsb:
+  - rcsb.org
+  - "*.rcsb.org"
+
+pubchem:
+  - pubchem.ncbi.nlm.nih.gov
+
+fpbase:
+  - fpbase.org
+  - "*.fpbase.org"
