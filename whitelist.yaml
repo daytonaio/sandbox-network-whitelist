@@ -474,3 +474,8 @@ pubchem:
 fpbase:
   - fpbase.org
   - "*.fpbase.org"
+
+you:
+  - you.com
+  - "*.you.com"
+  - ydc-index-.io
