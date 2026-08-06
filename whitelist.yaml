@@ -173,8 +173,13 @@ ai_services:
   - copass.id
   - "*.copass.id"
   - zenmux.ai
+
+  - aihubmix.com
+  - api.aihubmix.com
+
   - "*.devin.ai"
   - "*.codeium.com"
+
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
