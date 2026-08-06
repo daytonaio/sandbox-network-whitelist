@@ -173,13 +173,10 @@ ai_services:
   - copass.id
   - "*.copass.id"
   - zenmux.ai
-
   - aihubmix.com
   - api.aihubmix.com
-
   - "*.devin.ai"
   - "*.codeium.com"
-
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
@@ -298,7 +295,7 @@ llm_observability:
 inngest:
   - inngest.com
   - "*.inngest.com"
-  
+
 # Clerk (Authentication)
 clerk:
   - clerk.com
@@ -309,43 +306,43 @@ clerk:
   - "*.accounts.dev"
   - clerk.accounts.dev
   - "*.clerk.accounts.dev"
-  
+
 # Vercel (deployments, preview URLs, Next.js telemetry)
 vercel:
   - vercel.com
   - "*.vercel.com"
   - "*.vercel.app"
-  
+
 # PostHog (Analytics)
 posthog:
   - posthog.com
   - "*.posthog.com"
-  
+
 # Sentry (Error Tracking)
 sentry:
   - sentry.io
   - "*.sentry.io"
   - sentry-cdn.com
   - "*.sentry-cdn.com"
-  
+
 # Linear (API + App)
 linear:
   - linear.app
   - "*.linear.app"
-  
+
 # Figma API (for Figma MCP)
 figma:
   - figma.com
   - "*.figma.com"
   - "*.figmafiles.com"
-  
+
 # WorkOS (Authentication + AuthKit)
 workos:
   - workos.com
   - "*.workos.com"
   - authkit.app
   - "*.authkit.app"
-  
+
 # Supabase (Database API + MCP)
 supabase:
   - supabase.com
@@ -353,7 +350,7 @@ supabase:
   - supabase.co
   - "*.supabase.co"
   - "*.storage.supabase.co" # <project_ref>.storage.supabase.co — two levels below supabase.co, not covered by *.supabase.co
-  
+
 # ClickUp (Project Management API + MCP)
 clickup:
   - clickup.com
@@ -369,7 +366,7 @@ railway:
   - "*.railway.app"
   - railway.com
   - "*.railway.com"
-  
+
 # Autumn (Billing API)
 autumn:
   - api.useautumn.com
@@ -428,12 +425,12 @@ elixir:
 rubygems:
   - rubygems.org
   - "*.rubygems.org"
-  
+
 # Shortcut (Ticket system API + MCP)
 shortcut:
   - api.app.shortcut.com
   - app.shortcut.com
-  
+
 # USAspending.gov (federal spending data API + bulk downloads)
 usaspending:
   - api.usaspending.gov
@@ -446,9 +443,9 @@ logodev:
 
 # Kiro CLI (AWS AI coding agent)
 kiro:
-  - "*.kiro.dev"                  # cli.kiro.dev (install script)
-  - "*.us-east-1.kiro.dev"        # runtime + management (chat)
-  - prod.download.cli.kiro.dev    # install binary (3 labels - explicit)
+  - "*.kiro.dev" # cli.kiro.dev (install script)
+  - "*.us-east-1.kiro.dev" # runtime + management (chat)
+  - prod.download.cli.kiro.dev # install binary (3 labels - explicit)
 
 # Browserbase (cloud browser infrastructure for AI agents — Verified browsers, CDP connect)
 browserbase:
@@ -511,23 +508,19 @@ mountpoint_s3:
   - "*.s3.eu-west-3.amazonaws.com"
   - "*.s3.ap-south-1.amazonaws.com"
 
-
 # rclone (install script + binary download)
 rclone:
   - rclone.org
   - downloads.rclone.org
 
-
 # Microsoft apt repository (blobfuse2 — Azure Blob)
 microsoft_packages:
   - packages.microsoft.com
-
 
 # Tigris object storage
 tigris:
   - t3.storage.dev
   - "*.t3.storage.dev"
-
 
 # Archil (installer at archil.com/install + regional service endpoints)
 archil:
