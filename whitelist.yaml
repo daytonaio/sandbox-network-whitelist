@@ -132,6 +132,7 @@ ai_services:
   - openai.com
   - "*.openai.com"
   - chatgpt.com
+  - "*.chatgpt.com"
   - generativelanguage.googleapis.com
   - gemini.google.com
   - aistudio.google.com
