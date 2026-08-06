@@ -345,6 +345,7 @@ supabase:
   - "*.supabase.com"
   - supabase.co
   - "*.supabase.co"
+  - "*.storage.supabase.co" # <project_ref>.storage.supabase.co — two levels below supabase.co, not covered by *.supabase.co
   
 # ClickUp (Project Management API + MCP)
 clickup:
@@ -474,3 +475,50 @@ pubchem:
 fpbase:
   - fpbase.org
   - "*.fpbase.org"
+
+# Mountpoint for Amazon S3 (installer .deb + virtual-hosted bucket endpoints)
+# s3.amazonaws.com hosts the mount-s3.deb used by the S3, R2, Tigris, and
+# Supabase mount guides (runtime install AND snapshot builds).
+# Path-style regional endpoints (s3.<region>.amazonaws.com) are already
+# covered by the existing aws: *.<region>.amazonaws.com entries, but
+# virtual-hosted buckets (bucket.s3.<region>.amazonaws.com) are two levels
+# deep and need their own wildcards.
+mountpoint_s3:
+  - s3.amazonaws.com
+  - "*.s3.amazonaws.com"
+  - "*.s3.us-east-1.amazonaws.com"
+  - "*.s3.us-east-2.amazonaws.com"
+  - "*.s3.us-west-1.amazonaws.com"
+  - "*.s3.us-west-2.amazonaws.com"
+  - "*.s3.eu-central-1.amazonaws.com"
+  - "*.s3.eu-central-2.amazonaws.com"
+  - "*.s3.eu-north-1.amazonaws.com"
+  - "*.s3.eu-south-1.amazonaws.com"
+  - "*.s3.eu-south-2.amazonaws.com"
+  - "*.s3.eu-west-1.amazonaws.com"
+  - "*.s3.eu-west-2.amazonaws.com"
+  - "*.s3.eu-west-3.amazonaws.com"
+  - "*.s3.ap-south-1.amazonaws.com"
+
+
+# rclone (install script + binary download)
+rclone:
+  - rclone.org
+  - downloads.rclone.org
+
+
+# Microsoft apt repository (blobfuse2 — Azure Blob)
+microsoft_packages:
+  - packages.microsoft.com
+
+
+# Tigris object storage
+tigris:
+  - t3.storage.dev
+  - "*.t3.storage.dev"
+
+
+# Archil (installer at archil.com/install + regional service endpoints)
+archil:
+  - archil.com
+  - "*.archil.com"
