@@ -177,6 +177,9 @@ ai_services:
   - api.aihubmix.com
   - "*.devin.ai"
   - "*.codeium.com"
+  - githubcopilot.com # GitHub Copilot CLI / agent API (not covered by *.github.com)
+  - "*.githubcopilot.com"
+  - "*.individual.githubcopilot.com" # api.individual.githubcopilot.com — two levels; *.githubcopilot.com only matches one
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
