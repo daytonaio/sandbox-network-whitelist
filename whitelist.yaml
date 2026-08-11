@@ -484,7 +484,7 @@ you:
   - you.com
   - "*.you.com"
   - ydc-index.io
-  - *.ydc-index.io
+  - "*.ydc-index.io"
 # Mountpoint for Amazon S3 (installer .deb + virtual-hosted bucket endpoints)
 # s3.amazonaws.com hosts the mount-s3.deb used by the S3, R2, Tigris, and
 # Supabase mount guides (runtime install AND snapshot builds).
