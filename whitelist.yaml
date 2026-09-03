@@ -527,3 +527,9 @@ tigris:
 archil:
   - archil.com
   - "*.archil.com"
+
+# TiDB Cloud Filesystem (CLI installer + region manifest on drive9.ai,
+# regional data plane on aws-<region>.drive9.ai)
+tidb_cloud_filesystem:
+  - drive9.ai
+  - "*.drive9.ai"
