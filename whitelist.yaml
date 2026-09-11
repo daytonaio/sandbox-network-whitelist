@@ -122,6 +122,7 @@ cdn_services:
 js_cdns:
   - unpkg.com
   - jsdelivr.net
+  - cdn.sheetjs.com
 
 # AI/ML Services
 ai_services:
