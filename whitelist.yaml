@@ -290,6 +290,9 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
   - api.smith.langchain.com
+  - app.arize.com
+  - otlp.arize.com
+  - app.phoenix.arize.com
 
 # Inngest (Background Jobs)
 inngest:
