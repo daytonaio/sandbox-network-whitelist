@@ -447,6 +447,10 @@ drive9:
   - drive9.ai
   - "*.drive9.ai"
 
+# TiDB Cloud Filesystem (Regional service endpoints)
+tidbcloud:
+  - "*.tidbcloud.com"
+
 # Logo Dev (API for Company Logos)
 logodev:
   - img.logo.dev
