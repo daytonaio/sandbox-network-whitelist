@@ -1,0 +1,19 @@
+whitelist.yaml
+  s_8574cb46635fda::t_e1686741c899c7 360-367
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8431487dc35534b8f416f407efce0964ac6a64da",
+  "prompts": {},
+  "sessions": {
+    "s_8574cb46635fda": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "68ba8e24-f39e-4fc1-be52-a15da3dbe288",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Toma Puljak <toma.puljak@hotmail.com>"
+    }
+  }
+}
