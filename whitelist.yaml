@@ -357,6 +357,14 @@ supabase:
   - "*.supabase.co"
   - "*.storage.supabase.co" # <project_ref>.storage.supabase.co — two levels below supabase.co, not covered by *.supabase.co
 
+# Neon (Serverless Postgres — Management API, project endpoints, website/docs, claim flow)
+neon:
+  - console.neon.tech # Management API (https://console.neon.tech/api/v2)
+  - "*.aws.neon.tech" # Neon project APIs
+  - neon.com # Website & docs, including OpenAPI spec
+  - "*.neon.com" # Other APIs (claim flow etc.)
+  - "*.neon.tech" # Other APIs (claim flow etc.)
+
 # ClickUp (Project Management API + MCP)
 clickup:
   - clickup.com
