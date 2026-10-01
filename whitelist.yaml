@@ -546,3 +546,8 @@ tigris:
 archil:
   - archil.com
   - "*.archil.com"
+
+# Omnara (agent platform — sandbox daemon connects to api.omnara.com and downloads from releases.omnara.com)
+omnara:
+  - omnara.com
+  - "*.omnara.com"
