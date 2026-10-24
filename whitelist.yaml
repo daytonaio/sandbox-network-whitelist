@@ -137,6 +137,7 @@ ai_services:
   - aistudio.google.com
   - api.perplexity.ai
   - api.deepseek.com
+  - api.cerebras.ai
   - api.groq.com
   - api.expo.dev
   - openrouter.ai
