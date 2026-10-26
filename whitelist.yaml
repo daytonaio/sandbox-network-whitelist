@@ -3,9 +3,9 @@
 # =============================================================================
 # This file contains domains that are whitelisted in the Daytona Envoy proxy
 #
-# IMPORTANT: Wildcards (*.domain.com) only match ONE subdomain level!
+# IMPORTANT: Wildcards (*.domain.com) match subdomains at ANY depth!
 #   *.example.com matches: foo.example.com
-#   *.example.com does NOT match: bar.foo.example.com
+#   *.example.com also matches: bar.foo.example.com
 
 # NPM Registry and Package Managers
 npm_registry:
@@ -115,7 +115,6 @@ cdn_services:
   - fastly.com
   - cloudflare.com
   - gateway.ai.cloudflare.com
-  - "*.workers.dev"
   - r2.cloudflarestorage.com
   - "*.r2.cloudflarestorage.com"
 
