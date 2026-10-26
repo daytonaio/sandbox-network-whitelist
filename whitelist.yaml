@@ -394,6 +394,11 @@ doppler:
   - doppler.com
   - "*.doppler.com"
 
+# Infisical (Secrets Management)
+infisical:
+  - infisical.com
+  - "*.infisical.com"
+
 # Auth0 (Authentication)
 auth0:
   - auth0.com
