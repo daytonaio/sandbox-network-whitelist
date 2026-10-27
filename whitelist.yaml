@@ -174,6 +174,11 @@ ai_services:
   - zenmux.ai
   - aihubmix.com
   - api.aihubmix.com
+  - open-design.ai # Open Design AI gateway (OpenAI-compatible, deepseek-v4.1-flash)
+  - amr-link.open-design.ai
+  - api.open-design.ai
+  - "*.open-design.ai"
+  - api.deeprelay.ai # DeepRelay AI gateway (OpenAI-compatible)
   - "*.devin.ai"
   - "*.codeium.com"
   - githubcopilot.com # GitHub Copilot CLI / agent API (not covered by *.github.com)
