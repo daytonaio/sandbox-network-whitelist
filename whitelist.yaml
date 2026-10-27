@@ -180,6 +180,11 @@ ai_services:
   - "*.githubcopilot.com"
   - "*.individual.githubcopilot.com" # api.individual.githubcopilot.com — two levels; *.githubcopilot.com only matches one
 
+# CommandCode (AI-powered CLI platform)
+commandcode:
+  - commandcode.ai
+  - "*.commandcode.ai"
+
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
   - huggingface.co
