@@ -14,7 +14,6 @@ npm_registry:
   - nodejs.org
   - nodesource.com
   - deb.nodesource.com
-  - npm.pkg.github.com
 
 yarn_packages:
   - yarnpkg.com
@@ -57,8 +56,6 @@ azure_devops:
   - login.microsoftonline.com
   - visualstudio.com
   - "*.visualstudio.com"
-  - ssh.dev.azure.com
-  - vs-ssh.visualstudio.com
 
 # Python Package Managers
 pypi:
@@ -85,9 +82,6 @@ rust:
 
 # Go Module Proxy and Toolchain
 golang:
-  - proxy.golang.org
-  - sum.golang.org
-  - index.golang.org
   - go.dev
   - golang.org
   - "*.golang.org"
@@ -108,7 +102,6 @@ ubuntu_repos:
 
 debian_repos:
   - "*.debian.org"
-  - cdn-fastly.deb.debian.org
 
 # CDN and Content Delivery
 cdn_services:
@@ -132,7 +125,6 @@ ai_services:
   - "*.openai.com"
   - chatgpt.com
   - "*.chatgpt.com"
-  - generativelanguage.googleapis.com
   - gemini.google.com
   - aistudio.google.com
   - api.perplexity.ai
@@ -179,7 +171,6 @@ ai_services:
   - "*.codeium.com"
   - githubcopilot.com # GitHub Copilot CLI / agent API (not covered by *.github.com)
   - "*.githubcopilot.com"
-  - "*.individual.githubcopilot.com" # api.individual.githubcopilot.com — two levels; *.githubcopilot.com only matches one
 
 # Hugging Face (Model Hub + Datasets + Inference API)
 huggingface:
@@ -187,10 +178,6 @@ huggingface:
   - "*.huggingface.co"
   - hf.co
   - "*.hf.co"
-  - "*.xethub.hf.co"
-  - "*.cdn.hf.co"
-  - "*.aws.cdn.hf.co"
-  - "*.gcp.cdn.hf.co"
 
 # Docker Registries and Container Services
 docker_registries:
@@ -207,19 +194,12 @@ other_registries:
   - "*.pkg.dev"
   - registry.cloud.google.com
   - quay.io
-  - quay-registry.s3.amazonaws.com
-  - public.ecr.aws
   - "*.ecr.aws"
 
 # Maven Repositories
 maven_repos:
   - repo1.maven.org
   - repo.maven.apache.org
-
-# Google Fonts
-google_fonts:
-  - fonts.googleapis.com
-  - fonts.gstatic.com
 
 # AWS endpoints
 aws:
@@ -241,7 +221,6 @@ aws:
 gcp:
   - accounts.google.com
   - "*.googleapis.com"
-  - "*.storage.googleapis.com"
   - "*.gstatic.com"
 
 # Google general downloads (Chrome, gcloud SDK, Android tools, Go binaries via golang.org redirect, etc.)
@@ -291,7 +270,6 @@ messaging_services:
 # LLM observability / tracing
 llm_observability:
   - "*.langfuse.com"
-  - "*.cloud.langfuse.com"
   - api.smith.langchain.com
   - app.arize.com
   - otlp.arize.com
@@ -310,8 +288,6 @@ clerk:
   - "*.clerk.dev"
   - accounts.dev
   - "*.accounts.dev"
-  - clerk.accounts.dev
-  - "*.clerk.accounts.dev"
 
 # Vercel (deployments, preview URLs, Next.js telemetry)
 vercel:
@@ -355,12 +331,9 @@ supabase:
   - "*.supabase.com"
   - supabase.co
   - "*.supabase.co"
-  - "*.storage.supabase.co" # <project_ref>.storage.supabase.co — two levels below supabase.co, not covered by *.supabase.co
 
 # Neon (Serverless Postgres — Management API, project endpoints, website/docs, claim flow)
 neon:
-  - console.neon.tech # Management API (https://console.neon.tech/api/v2)
-  - "*.aws.neon.tech" # Neon project APIs
   - neon.com # Website & docs, including OpenAPI spec
   - "*.neon.com" # Other APIs (claim flow etc.)
   - "*.neon.tech" # Other APIs (claim flow etc.)
@@ -472,17 +445,11 @@ logodev:
 # Kiro CLI (AWS AI coding agent)
 kiro:
   - "*.kiro.dev" # cli.kiro.dev (install script)
-  - "*.us-east-1.kiro.dev" # runtime + management (chat)
-  - prod.download.cli.kiro.dev # install binary (3 labels - explicit)
 
 # Browserbase (cloud browser infrastructure for AI agents — Verified browsers, CDP connect)
 browserbase:
   - browserbase.com
   - "*.browserbase.com"
-  - connect.usw2.browserbase.com
-  - connect.use1.browserbase.com
-  - connect.euc1.browserbase.com
-  - connect.apse1.browserbase.com
 
 # Terminal-Bench 2.1 (scientific / ML downloads + bioinformatics APIs)
 # Needed by harbor terminal-bench/terminal-bench-2-1 tasks:
@@ -516,26 +483,11 @@ you:
 # Mountpoint for Amazon S3 (installer .deb + virtual-hosted bucket endpoints)
 # s3.amazonaws.com hosts the mount-s3.deb used by the S3, R2, Tigris, and
 # Supabase mount guides (runtime install AND snapshot builds).
-# Path-style regional endpoints (s3.<region>.amazonaws.com) are already
-# covered by the existing aws: *.<region>.amazonaws.com entries, but
-# virtual-hosted buckets (bucket.s3.<region>.amazonaws.com) are two levels
-# deep and need their own wildcards.
+# Regional endpoints, path-style and virtual-hosted, are covered by the
+# aws: *.<region>.amazonaws.com entries.
 mountpoint_s3:
   - s3.amazonaws.com
   - "*.s3.amazonaws.com"
-  - "*.s3.us-east-1.amazonaws.com"
-  - "*.s3.us-east-2.amazonaws.com"
-  - "*.s3.us-west-1.amazonaws.com"
-  - "*.s3.us-west-2.amazonaws.com"
-  - "*.s3.eu-central-1.amazonaws.com"
-  - "*.s3.eu-central-2.amazonaws.com"
-  - "*.s3.eu-north-1.amazonaws.com"
-  - "*.s3.eu-south-1.amazonaws.com"
-  - "*.s3.eu-south-2.amazonaws.com"
-  - "*.s3.eu-west-1.amazonaws.com"
-  - "*.s3.eu-west-2.amazonaws.com"
-  - "*.s3.eu-west-3.amazonaws.com"
-  - "*.s3.ap-south-1.amazonaws.com"
 
 # rclone (install script + binary download)
 rclone:
