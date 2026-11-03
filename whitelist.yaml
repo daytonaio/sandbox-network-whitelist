@@ -46,6 +46,7 @@ gitlab:
 
 bitbucket:
   - bitbucket.org
+  - "*.bitbucket.org"
 
 code_storage:
   - code.storage
