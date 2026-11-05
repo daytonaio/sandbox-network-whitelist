@@ -317,7 +317,6 @@ clerk:
 vercel:
   - vercel.com
   - "*.vercel.com"
-  - "*.vercel.app"
 
 # PostHog (Analytics)
 posthog:
