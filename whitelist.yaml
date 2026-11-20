@@ -293,6 +293,7 @@ llm_observability:
   - "*.langfuse.com"
   - "*.cloud.langfuse.com"
   - api.smith.langchain.com
+  - eu.api.smith.langchain.com # LangSmith EU region
   - app.arize.com
   - otlp.arize.com
   - app.phoenix.arize.com
