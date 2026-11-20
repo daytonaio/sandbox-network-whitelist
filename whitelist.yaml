@@ -555,6 +555,31 @@ tigris:
   - t3.storage.dev
   - "*.t3.storage.dev"
 
+# Nebius Object Storage (S3-compatible, path-style + virtual-hosted bucket endpoints)
+# Deliberately NOT *.nebius.cloud: Nebius Tunnels expose arbitrary user services at
+# <name>-<id>.tunnel.applications.<region>.nebius.cloud, which would be an open relay.
+nebius_object_storage:
+  - storage.eu-north1.nebius.cloud
+  - "*.storage.eu-north1.nebius.cloud"
+  - storage.eu-north2.nebius.cloud
+  - "*.storage.eu-north2.nebius.cloud"
+  - storage.eu-south1.nebius.cloud
+  - "*.storage.eu-south1.nebius.cloud"
+  - storage.eu-west1.nebius.cloud
+  - "*.storage.eu-west1.nebius.cloud"
+  - storage.eu-west2.nebius.cloud
+  - "*.storage.eu-west2.nebius.cloud"
+  - storage.me-west1.nebius.cloud
+  - "*.storage.me-west1.nebius.cloud"
+  - storage.us-central1.nebius.cloud
+  - "*.storage.us-central1.nebius.cloud"
+  - storage.us-north1.nebius.cloud
+  - "*.storage.us-north1.nebius.cloud"
+  - storage.uk-south1.nebius.cloud
+  - "*.storage.uk-south1.nebius.cloud"
+  - storage.uk-south2.nebius.cloud
+  - "*.storage.uk-south2.nebius.cloud"
+
 # Archil (installer at archil.com/install + regional service endpoints)
 archil:
   - archil.com
