@@ -301,6 +301,7 @@ llm_observability:
 inngest:
   - inngest.com
   - "*.inngest.com"
+  - inn.gs # Event API: the Inngest SDK sends events to inn.gs/e/<event key>
 
 # Clerk (Authentication)
 clerk:
