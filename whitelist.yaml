@@ -295,6 +295,49 @@ llm_observability:
   - otlp.arize.com
   - app.phoenix.arize.com
 
+# Grafana Cloud OTLP gateway, one exact host per region.
+# Older regions use a flat host (otlp-gateway-<region-slug>.grafana.net); regions created on or after
+# 2026-01-15 use a nested host (otlp-gateway-<region-slug>.<csp>-<csp-region>-<n>.grafana.net).
+# Deliberately NOT *.grafana.net: user Grafana stacks live at <stack>.grafana.net and
+# the data source proxy can forward requests to arbitrary URLs, so it would be an open relay.
+grafana_cloud_otlp:
+  - otlp-gateway-prod-ap-northeast-0.grafana.net
+  - otlp-gateway-prod-ap-south-0.grafana.net
+  - otlp-gateway-prod-ap-south-1.grafana.net
+  - otlp-gateway-prod-ap-southeast-0.grafana.net
+  - otlp-gateway-prod-ap-southeast-1.grafana.net
+  - otlp-gateway-prod-ap-southeast-2.grafana.net
+  - otlp-gateway-prod-au-southeast-0.grafana.net
+  - otlp-gateway-prod-au-southeast-1.grafana.net
+  - otlp-gateway-prod-ca-east-0.grafana.net
+  - otlp-gateway-prod-eu-central-0.grafana.net
+  - otlp-gateway-prod-eu-north-0.grafana.net
+  - otlp-gateway-prod-eu-west-0.grafana.net
+  - otlp-gateway-prod-eu-west-2.grafana.net
+  - otlp-gateway-prod-eu-west-3.grafana.net
+  - otlp-gateway-prod-eu-west-4.grafana.net
+  - otlp-gateway-prod-eu-west-6.grafana.net
+  - otlp-gateway-prod-gb-south-0.grafana.net
+  - otlp-gateway-prod-gb-south-1.grafana.net
+  - otlp-gateway-prod-me-central-0.grafana.net
+  - otlp-gateway-prod-me-central-1.grafana.net
+  - otlp-gateway-prod-sa-east-0.grafana.net
+  - otlp-gateway-prod-sa-east-1.grafana.net
+  - otlp-gateway-prod-us-central-0.grafana.net
+  - otlp-gateway-prod-us-east-0.grafana.net
+  - otlp-gateway-prod-us-east-1.grafana.net
+  - otlp-gateway-prod-us-east-2.grafana.net
+  - otlp-gateway-prod-us-east-3.grafana.net
+  - otlp-gateway-prod-us-east-6.grafana.net
+  - otlp-gateway-prod-us-west-0.grafana.net
+  - otlp-gateway-us-central2.grafana.net
+  - otlp-gateway-prod-ap-northeast-1.aws-ap-northeast-2-0.grafana.net
+  - otlp-gateway-prod-ap-southeast-3.azure-malaysiawest-0.grafana.net
+  - otlp-gateway-prod-eu-west-7.aws-eu-central-1-1.grafana.net
+  - otlp-gateway-prod-eu-west-8.aws-eu-west-3-0.grafana.net
+  - otlp-gateway-prod-me-central-2.azure-uaenorth-0.grafana.net
+  - otlp-gateway-prod-us-east-4.aws-us-east-1-1.grafana.net
+
 # Inngest (Background Jobs)
 inngest:
   - inngest.com
