@@ -170,8 +170,6 @@ ai_services:
   - trynia.ai
   - "*.trynia.ai"
   - api.x.ai
-  - copass.id
-  - "*.copass.id"
   - zenmux.ai
   - aihubmix.com
   - api.aihubmix.com
@@ -205,7 +203,6 @@ other_registries:
   - gcr.io
   - "*.gcr.io"
   - "*.pkg.dev"
-  - registry.cloud.google.com
   - quay.io
   - quay-registry.s3.amazonaws.com
   - public.ecr.aws
@@ -339,7 +336,6 @@ linear:
 figma:
   - figma.com
   - "*.figma.com"
-  - "*.figmafiles.com"
 
 # WorkOS (Authentication + AuthKit)
 workos:
