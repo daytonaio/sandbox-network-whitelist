@@ -318,6 +318,10 @@ vercel:
   - vercel.com
   - "*.vercel.com"
 
+# LLM Time Machine (exact host: model proxy for its agent runs; every proxy call needs a per-run signed credential)
+llm_timemachine:
+  - llmtimemachine.com
+
 # PostHog (Analytics)
 posthog:
   - posthog.com
